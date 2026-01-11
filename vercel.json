@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/ASHV2K26 PREV/orgashv.html"
+    }
+  ]
+}
