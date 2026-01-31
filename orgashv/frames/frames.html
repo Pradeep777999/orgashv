@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Frames Layout</title>
+</head>
+
+<frameset rows="40%,60%" align="center">
+    
+    <!-- Top frame for image -->
+    <frame src="image.html" noresize>
+
+    <!-- Bottom frames divided into two columns -->
+    <frameset cols="50%,50%">
+        <frame src="para.html" noresize>
+        <frame src="link.html" noresize>
+    </frameset>
+
+    <noframes>
+        <body>
+            <p>Your browser does not support frames.</p>
+        </body>
+    </noframes>
+
+</frameset>
+</html>
